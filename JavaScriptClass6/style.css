@@ -1,0 +1,11 @@
+h1 {
+    background-color: rgb(222, 132, 210);
+    box-sizing: border-box;
+}
+button{
+    background-color:  rgb(25, 68, 75);
+    color: white;
+}
+body{
+    background-color: chartreuse;
+}

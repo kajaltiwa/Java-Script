@@ -1,0 +1,26 @@
+*{
+    /* height: 100px;
+    width: 100px;
+     background-color: rgb(9, 91, 91); 
+     color: antiquewhite;
+    border: 1px solid black;  
+     background-image: url("../../media/examples/lizard.png");
+    background-image: url("../../media/examples/lizard.png"),
+                  url("../../media/examples/star.png"); */
+
+    /* single image */
+background-image: linear-gradient(black, white);
+background-image: url("catfront.png");
+
+/* multiple images */
+background-image: radial-gradient(circle, #0000 45%, #000f 48%),
+  radial-gradient(ellipse farthest-corner, #fc1c14 20%, #cf15cf 80%);
+
+/* Global values */
+background-image: inherit;
+background-image: initial;
+background-image: revert;
+background-image: revert-layer;
+background-image: unset;
+
+}
