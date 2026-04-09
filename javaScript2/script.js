@@ -63,7 +63,7 @@ if(mode === "dark"){
 } else if(mode === "pink"){
        color =  "pink";
 } else{
-       color = "blue";
+       color = "black";
 }
 console.log(color);
 // let age = 16;
