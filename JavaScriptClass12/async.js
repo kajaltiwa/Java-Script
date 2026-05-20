@@ -1,7 +1,7 @@
 function asyncFun(){
     return new Promise((resolve,reject) =>{
         setTimeout(() =>{
-            console.log("some detail..");
+            console.log("some detail...");
             resolve("success");
         },4000);
     });
