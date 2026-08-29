@@ -2,7 +2,7 @@ function asyncFun(){
     return new Promise((resolve,reject) =>{
         setTimeout(() =>{
             console.log("some detail...");
-            resolve("success");
+            resolve("success 🏆");
         },4000);
     });
 }
@@ -11,7 +11,7 @@ function asyncFun2(){
     return new Promise((resolve,reject) =>{
         setTimeout(() =>{
             console.log("some detail 1..");
-            resolve("success");
+            resolve("success 🏆");
         },4000);
     });
 }
